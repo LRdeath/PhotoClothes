@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
     /*选中颜色值*/
     private int colorUnSelect;
     private int colorSelect;
+    /*当前选中衣服url*/
     private String clothesUrl;
 
     /*权限相关*/
@@ -93,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
             ImageView itemView = new ImageView(this);
             itemView.setTag(R.id.btn_select_picture, url);
             itemView.setLayoutParams(params);
+            //网络图片加载
             Glide.with(MainActivity.this)
                     .load(url)
                     .into(itemView);

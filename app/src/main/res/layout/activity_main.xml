@@ -31,8 +31,7 @@
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        >
+        android:layout_weight="1">
 
         <LinearLayout
             android:id="@+id/sv_clothes_show"
@@ -45,6 +44,7 @@
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:padding="5dp"
+                android:src="@mipmap/ic_launcher"
                 android:paddingRight="5dp"
                 android:scaleType="fitCenter" />
         </LinearLayout>
